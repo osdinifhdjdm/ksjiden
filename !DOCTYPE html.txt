@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私のお菓子作り - シンプルなWebサイト</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header {
+            background-color: #440000;
+            color: white; /* テキストの色を白に設定 */
+        }
+        main {
+            color: #cc0000;
+        }
+        footer {
+            background-color: #440000;
+            color: white; /* テキストの色を白に設定 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>私のお菓子作り</h1>
+    </header>
+    <main>
+        <section>
+            <h2>最近作ったお菓子</h2>
+            <p>クッキー</p>
+        </section>
+        <section>
+            <h2>次に作りたいお菓子</h2>
+            <p>パンケーキ</p>
+        </section>
+        <section>
+            <h2>お菓子のレシピ</h2>
+            <p>ここにお菓子のレシピを追加できます。</p>
+        </section>
+        <section>
+            <h2>その他の情報</h2>
+            <p>これはその他の情報を追加できるセクションです。</p>
+        </section>
+    </main>
+    <footer>
+        <p>連絡先: info@example.com</p>
+        <p>
+            ソーシャルメディア: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
